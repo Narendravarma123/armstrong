@@ -1,0 +1,61 @@
+/*this*/
+*,*:before,*:after{
+    padding:0;
+    margin:0;
+    /*this*/
+    box-sizing: border-box;
+}
+body{
+    background-color:gray;
+}
+.container{
+    width: 35%;
+    /*this*/
+    min-width: 450px;
+    background-color: #ffffff;
+    padding: 50px 30px;
+    position: absolute;
+    /*this*/
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+    border-radius: 8px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0,0.18);
+}
+.container *{
+    /*this*/
+    outline: none;
+    font-size: 16px;
+}
+input{
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid #d5d5d5;
+    padding: 10px 5px;
+    /*this*/
+    font-weight: 400;
+}
+/*this*/
+input:focus{
+    border-bottom: 2px solid black;
+}
+button{
+    width: 25%;
+    /*this*/
+    float:right;
+    padding: 10px 20px;
+    background-color:black;
+    border:none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+h5{
+    min-width: 450px;
+    position: absolute;
+    left:40%;
+    top:55%;
+    color: black;
+    
+}
